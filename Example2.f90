@@ -1,10 +1,11 @@
 program example2
 implicit none  
-! This is an example target source code for unit and quantity checking.
+! This is example scientific source code for unit and quantity checking.
 ! This has kind-of-quantity annotations for checking with 'CheckkOQ'
-! The source code must be annotated with comments as follows:
-!= KOQRelation :: KOQ1 = KOQ2 [*|/] KOQ3 [*|/] KOQ4...
-!= KOQ <KOQ1 > :: variable1 [, variable2]
+! CheckKOQ detects errors in lines 23 and 25
+! The source code must be annotated as follows:
+! != KOQRelation :: KOQ1 = KOQ2 [*|/] KOQ3 [*|/] KOQ4...
+! != KOQ <KOQ1 > :: variable1 [, variable2]
    
 ! rotating flywheel with torque applied for a duration
 ! find the initial and final kinetic energy
