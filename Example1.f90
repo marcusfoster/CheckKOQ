@@ -1,10 +1,13 @@
 program example1
 implicit none 
-! This is an example target source code for unit and quantity checking.
-! This has unit annotations for checking by 'Camfort', a Fortran source-code units-of-measure checker described in:
+! This is example scientific source code for unit and kind-of-quantity (KOQ) checking..
+! This has annotations for checking units-of-measure by 'Camfort'
+! Camfort cannot detect KOQ errors in lines 23 and 25
+! Camfort is described in:
 ! M. Contrastin, et al., "Units-of-Measure Correctness in Fortran Programs," Computing in Science & Engineering, vol. 18, pp. 102-107, 2016.
 ! The source code must be annotated with comments as follows:
-!= unit <unit_name> [:: variable_name]  
+! != unit <unit_name> [:: variable_name]  
+
 
 ! rotating flywheel with torque applied for a duration
 ! find the initial and final kinetic energy
