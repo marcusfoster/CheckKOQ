@@ -3,7 +3,7 @@ Checks Fortran 90 source-code, to verify the correctness of kind-of-quantity (KO
 CheckKOQ outputs the line numbers and variables which have wrong KOQ
 For definitions and examples see ISO 80000-1:2009 Quantities and units -- Part 1: General
 This is a PROOF-OF-CONCEPT extension to Camfort, a Fortran source-code units-of-measure checker described in:
-M. Contrastin, et al., "Units-of-Measure Correctness in Fortran Programs," Computing in Science & Engineering, vol. 18, pp. 102-107, 2016.
+M. Contrastin, et al., "Units-of-Measure Correctness in Fortran Programs", Computing in Science & Engineering, 18, 102-107, 2016.
 The Fortran source must be annotated with comments as follows:
 != KOQRelation :: KOQ1 = KOQ2 [*|/] KOQ3 [*|/] KOQ4...
 != KOQ <KOQ1 > :: variable1 [, variable2]
